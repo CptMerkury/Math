@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload='setFocus()'>
+<div class="containerSum" >
+    <div class="sum" style="opacity: 0">
+        <input id="first" value="" style="width: 50px" disabled/> +
+        <input id="second" value="" style="width: 50px" disabled/> =
+        <input id="equals" value="" style="width: 50px" onkeyup="checkInput()" />
+    </div>
+    <br/>
+    <input id="result" type="button" onclick="inputValue()" value="Проверить" disabled>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/gsap.min.js"></script>
+<script src="exeSum.js"></script>
+
+</body>
+</html>
